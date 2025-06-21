@@ -24,3 +24,4 @@ python-decouple==3.8
 # Payments
 stripe==5.5.0
 gopay==2.0.1
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
